@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Ma page d'accueil</title>
+            <link rel="stylesheet" href="https://drive.google.com/uc?export=download&id=1MhgtCAbucfNrDxnuLF7UzGGhk8_ANQJN">
+	</head>
+	<body>
+      <h1>Un site qui déchire.</h1>
+      <h2>Bonjour {{prenom|capitalize}} {{nom|upper}} !</h2>
+      <p>Vous voici sur mon site à moi.</p>
+      <p> Il est {{heure}} h {{minute}} m {{seconde}} s (heure du serveur !)</p>
+      <p> Pour info, l'aire d'un disque de rayon {{rayon}} cm est d'environ {{aire}} cm²</p>
+      
+      
+      <form action="/resultat" method="post">
+            <label>Nom : </label><input type="text" name="nom" />
+            <label>Prénom : </label><input type="text" name="prenom" />
+            <input type="submit" value="Envoyer" />
+      </form>
+      </body>
+      <footer><a href="/contact">Lien vers les contacts</a> <a href="/cesar">Lien vers le Code Cesar</a></footer>
+</html>

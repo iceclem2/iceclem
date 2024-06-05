@@ -170,7 +170,7 @@ body {
 /* Médias queries pour responsive design */
 @media (max-width: 768px) {
     #header1 {
-        flex-direction: column; /* Empiler les liens de menu verticalement */
+        flex-direction: horizontal; /* Empiler les liens de menu verticalement */
     }
     #bloc2 iframe {
         height: 200px; /* Réduire la hauteur de l'iframe sur les écrans plus petits */

@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    font-size: medium;
+}
+#header {
+    background-color: #284069;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+#header1 {
+    padding: 0px 35px;
+    display: flex;
+    cursor: default;
+}
+#header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    padding: 20px 0;
+    text-decoration-color: rgba(0, 0, 0, 0);
+    transition: text-decoration-color 0.65s;
+    cursor: pointer;
+}
+#header:hover {
+    cursor: pointer;
+}
+#header img {
+    height: 45px;
+    width: 45px;
+}
+#header #img {
+    height: 45px;
+    width: 45px;
+    padding: 15px 35px 15px 0px;
+}
+#header .padding {
+    padding: 28px 0;
+}
+#header .push {
+    margin-left: auto;
+    padding: 28px 0;
+}
+#header a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: white;
+    text-underline-offset: 5px;
+}
+#header .actual-page {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+}
+#img-jungle {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(55%);
+}
+#bloc1 {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+#bloc2 {
+    background-color: white;
+    height: 550px;
+    z-index: 2;
+    position: relative;
+    display: flex;
+}
+#bloc3 {
+    background-color: #284069;
+    height: 550px;
+    z-index: 2;
+}
+
+#bloc1 h1 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline;
+    font-size: 70px;
+    color: #8ba5d2;
+}
+#bloc1 p {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline;
+    font-size: medium;
+    color: white;
+}
+.triangle {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 10px solid white; /* Couleur du triangle */
+    cursor: pointer;
+    transition: filter 0.5s;
+}
+.triangle:hover {
+    filter: brightness(70%);
+}
+#bloc2 iframe {
+    position: relative;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+#bloc2 a {
+    width: 150px;
+    height: 150px;
+} 
+#bloc2 #chanel {
+    position: absolute;
+    top: 23%;
+    left: 10%;
+    display: flex;
+} 
+#bloc2 img {
+    width: 150px;
+    height: auto;
+    display: flex;
+    border-radius: 8px;
+} 
+#bloc2 h2 {
+    margin: 0px 40px;
+    width: 240px;
+    height: 50px;
+}
+#bloc2 p {
+    margin: 0px 40px;
+    width: 240px;
+    height: 80px;
+    padding: 20px 0;
+}
+#bloc2 #chanel #text {
+    display: inline;
+} 
+#bloc2 #chanel2 {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    display: flex;
+} 
+#bloc2 #chanel2 h2 {
+    margin: 0px 40px;
+    width: 240px;
+    height: 25px;
+}
+  
